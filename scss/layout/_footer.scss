@@ -12,17 +12,18 @@
   background-position: center;
   min-height: 30rem;
 
-  & .wrapper {
-    width: 100%;
-  }
-
   &__content {
-    // text-wrap: balance;
     display: grid;
     align-items: center;
 
     justify-content: space-between;
     grid-template-columns: 35rem 35rem max-content;
+
+    @include respond(max-width, 64em) {
+      justify-items: center;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
   }
 
   &__title {

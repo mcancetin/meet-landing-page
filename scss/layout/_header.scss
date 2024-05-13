@@ -3,4 +3,9 @@
   justify-content: center;
   margin-block-start: 8rem;
   margin-block-end: 10.8rem;
+
+  @include respond(max-width, 32em) {
+    margin-block-start: 5.1rem;
+    margin-block-end: 5.6rem;
+  }
 }
