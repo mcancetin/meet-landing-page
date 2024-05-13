@@ -16,33 +16,71 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="/assets/logo.svg" alt="Meet compony logo" />
+        <div class="header__logo">
+          <img src="/assets/logo.svg" alt="Meet compony logo" />
+        </div>
       </header>
       <main class="main">
         <section class="hero">
-          <h1 class="title">Group Chat for Everyone</h1>
-          <p class="content">
-            Meet makes it easy to connect with others face-to-face virtually and
-            collaborate across any device.
-          </p>
-          <img src="assets/desktop/image-hero-left.png" alt="" />
-          <img src="assets/desktop/image-hero-right.png" alt="" />
-          <button class="button">Download <span>v1.3</span></button>
-          <button class="button">What is it?</button>
+          <img
+            src="assets/desktop/image-hero-left.png"
+            alt=""
+            class="hero__image hero__image-left"
+          />
+          <img
+            src="assets/desktop/image-hero-right.png"
+            alt=""
+            class="hero__image hero__image-right"
+          />
+          <div class="hero__content">
+            <h1 class="hero__title | heading-primary">
+              Group Chat for Everyone
+            </h1>
+            <p class="hero__text | body-text">
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+            <button class="button button-primary">
+              Download <span class="button__version">v1.3</span>
+            </button>
+            <button class="button button-secondary">What is it?</button>
+          </div>
         </section>
-
+        <div class="stepper | body-text">
+          <span class="stepper__count">01</span>
+        </div>
         <section class="feature">
           <div class="wrapper">
-            <div class="images">
-              <img src="assets/desktop/image-woman-in-videocall.jpg" alt="" />
-              <img src="/assets/desktop/image-women-videochatting.jpg" alt="" />
-              <img src="assets/desktop/image-men-in-meeting.jpg" alt="" />
-              <img src="assets/desktop/image-man-texting.jpg" alt="" />
+            <div class="feature__images">
+              <img
+                src="assets/desktop/image-woman-in-videocall.jpg"
+                alt=""
+                class="feature__image"
+              />
+              <img
+                src="/assets/desktop/image-women-videochatting.jpg"
+                alt=""
+                class="feature__image"
+              />
+              <img
+                src="assets/desktop/image-men-in-meeting.jpg"
+                alt=""
+                class="feature__image"
+              />
+              <img
+                src="assets/desktop/image-man-texting.jpg"
+                alt=""
+                class="feature__image"
+              />
             </div>
-            <article class="article">
-              <p class="subtitle">Built for modern use</p>
-              <h2 class="title">Smarter meetings, all in one place</h2>
-              <p class="content">
+            <article class="feature__article">
+              <p class="feature__subtitle | heading-tertiary">
+                Built for modern use
+              </p>
+              <h2 class="feature__title | heading-secondary">
+                Smarter meetings, all in one place
+              </h2>
+              <p class="feature__text | body-text">
                 Send messages, share files, show your screen, and record your
                 meetings — all in one workspace. Control who can join with
                 invite-only team access, data encryption, and data export.
@@ -50,15 +88,24 @@
             </article>
           </div>
         </section>
+        <div class="stepper | body-text">
+          <span class="stepper__count">02</span>
+        </div>
       </main>
       <footer class="footer">
         <div class="wrapper">
-          <h2 class="title">Experience more together</h2>
-          <p class="explanation">
-            Stay connected with reliable HD meetings and unlimited one-on-one
-            and group video sessions.
-          </p>
-          <button class="button">Download <span>v1.3</span></button>
+          <div class="footer__content">
+            <h2 class="footer__title | heading-secondary">
+              Experience more together
+            </h2>
+            <p class="footer__explanation | body-text">
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </p>
+            <button class="button button-secondary">
+              Download <span class="button__version">v1.3</span>
+            </button>
+          </div>
         </div>
       </footer>
     </div>

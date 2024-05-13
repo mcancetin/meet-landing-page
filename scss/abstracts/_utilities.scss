@@ -1,0 +1,29 @@
+.heading-primary {
+  font-size: $fs-900;
+  line-height: $lh-900;
+  font-weight: $fw-bold;
+  color: $clr-black;
+}
+
+.heading-secondary {
+  font-size: $fs-700;
+  line-height: $lh-700;
+  font-weight: $fw-bold;
+  color: $clr-black;
+}
+
+.heading-tertiary {
+  font-size: $fs-300;
+  line-height: $lh-400;
+  font-weight: $fw-bold;
+  letter-spacing: $ls-400;
+  color: $clr-primary;
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-size: $fs-400;
+  line-height: $lh-400;
+  font-weight: $fw-regular;
+  color: $clr-gray;
+}

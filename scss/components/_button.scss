@@ -1,0 +1,41 @@
+.button {
+  color: $clr-white;
+  text-decoration: none;
+  border: none;
+  border-radius: 100vh;
+  padding: 1.6rem 3.2rem;
+  font-weight: $fw-bold;
+  font-size: $fs-300;
+  cursor: pointer;
+
+  &-primary {
+    background-color: $clr-primary;
+
+    & > span {
+      color: $clr-primary-hover;
+    }
+
+    &:hover {
+      background-color: $clr-primary-hover;
+      & > span {
+        color: $clr-white;
+      }
+    }
+  }
+
+  &-secondary {
+    background-color: $clr-secondary;
+
+    & > span {
+      color: $clr-secondary-hover;
+    }
+
+    &:hover {
+      background-color: $clr-secondary-hover;
+
+      & > span {
+        color: $clr-white;
+      }
+    }
+  }
+}
